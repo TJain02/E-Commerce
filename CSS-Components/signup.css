@@ -1,0 +1,118 @@
+body{
+    background-color: #eef2ff;
+  }
+  /* navigation-container */
+    .wishlist-navigation-container{ 
+      font-size: 1.25rem;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-grow: 1;
+      position: fixed;
+      right: 0;
+      left: 0;
+      top:0;
+      background-color:#090553;
+      padding:1rem;
+      color: #eef2ff;
+      z-index: 2;
+    }
+    
+    
+    .toolBar{
+      flex-grow: 0.5;
+      align-items: center;
+      gap: 0.5rem;
+    } 
+   
+    .search-bar{
+      flex-grow: 3;
+      font-size: 1rem;
+    }
+  
+    .search-input{
+        width: 13rem;
+        border-radius: 0.5rem;
+        border: none;
+        padding: 0.3rem;
+        text-decoration: none;
+    }
+  
+    .login-btn{
+      border-radius: 0.125rem;
+      background-color: #6366f1;
+      color: #eef2ff;
+      border: none;
+      width: 4rem;
+      padding: 0.3rem 0.5rem;
+      font-size: 1rem;
+      font-family: 'Roboto', sans-serif;
+      cursor: pointer;
+    }
+  
+  /* login container */
+    .signup-box{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .signup-container{
+      position: relative;
+      top: 8rem;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      padding: 1rem;
+    }
+  
+    .email-input{
+      text-align: left;
+      margin-bottom: 0.5rem;
+    }
+  
+    #email{
+      width: 20rem;
+      padding: 0.3rem;
+      border-radius: 0.325rem;
+      border: 0.5px solid;
+    }
+  
+    #password{
+      width: 20rem;
+      padding: 0.3rem;
+      border-radius: 0.325rem;
+      border: 0.5px solid;
+      line-height: 1rem;
+    }
+  
+    .password-input{
+      text-align: left; 
+      margin-top: 0.5rem;
+    }
+  
+    .signup-features{
+      display: flex;
+      margin: 1rem;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .terms-and-conditions{
+      display: flex;
+      margin: 0.5rem;
+    }
+  
+    #terms-and-conditions{
+      cursor: pointer;
+    }
+  
+    .have-account{
+        border: none;
+        background-color: transparent;
+        font-size: 1rem;
+    }
+  
+    
