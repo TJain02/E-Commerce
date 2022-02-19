@@ -58,12 +58,12 @@ body{
 
   .category-section{
     position: relative;
-    top:3rem;
+    top:4rem;
     display: grid;
     margin: 1rem 0 1rem 1rem;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 0.5rem;
-    background-color: white;
+    background-color: #eef2ff;
     padding: 1rem;
   }
 
@@ -83,19 +83,21 @@ body{
     color: #090553;
     font-weight: bold;
     font-size: large;
-    background-color: #eef2ffab;
+    background-color: #eef2ffa1;
     width:11.7rem;
     left:0.15rem;
     text-align: center;
   }
 
   .home-image{
+    position: relative;
+    top: 5rem;
     display: flex;
     width: 80vw;
     margin:1rem 6rem;
     justify-content: center;
     padding: 1rem;
-    background-color: white;
+    background-color: #eef2ff;
   }
 
   .main-img{
@@ -111,6 +113,8 @@ body{
 /* cards */
 
 .new-arrivals-card{
+  position: relative;
+  top:5rem;
   display: grid;
   grid-template-columns: auto auto;
   margin: 1rem;
@@ -120,7 +124,7 @@ body{
 .shoe-card{
   margin: 0.3rem;
   display: flex;
-  background-color: white;
+  background-color: #eef2ff;
   padding: 1rem;
 }
 
