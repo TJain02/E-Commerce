@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* navigation-container */
+.navigation-container{ 
+    font-size: 1.25rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top:0;
+    background-color:#090553;
+    padding:1rem;
+    color: #eef2ff;
+    z-index: 2;
+  }
+  
+  .navigation-header{
+    flex-grow:1;
+    text-align: left;
+    margin-left: 1rem;
+  }
+  
+  .toolBar{
+    display: flex;
+    justify-content:space-around;
+    margin-right: 1rem;
+    flex-grow: 0.5;
+    align-items: center;
+    margin-left: 1rem;
+    gap: 0.5rem;
+  } 
+ 
+  .search-bar{
+    flex-grow: 3;
+    font-size: 1rem;
+  }
+
+  .search-input{
+      width: 13rem;
+      border-radius: 0.5rem;
+      border: none;
+      padding: 0.3rem;
+      text-decoration: none;
+  }
+
+  .login-btn{
+    border-radius: 0.125rem;
+    background-color: #6366f1;
+    color: #eef2ff;
+    border: none;
+    width: 4rem;
+    padding: 0.3rem 0.5rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+  }
+
+  /* wishlist container  */
+  
+  .wishlist-container{
+    position: relative;
+    top: 5rem;
+    text-align: center;
+
+  }
+
+  .wishlist-view{
+    position: relative;
+    top:7rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 1rem;
+  }
+  
+.wishlist-card{
+    display: flex;
+    flex-direction:column;
+}
+
+.badge-cards{
+    display: flex;
+    flex-direction: column;
+    width:12rem;
+    height: 17rem;
+    background-color: white;
+    border: 0.0125rem solid #312e81;
+    justify-content: space-around;
+    position:relative;
+    padding: 0.5rem;
+    border-radius: 0.3125rem;
+}
+
+.wishlist-btn{
+    cursor: pointer;
+    width:0px;
+    height:0px;
+    position: absolute;
+    top: 0.1rem;
+    right:1.5rem; 
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+}
+
+.brand-name{
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.product-name{
+    font-size: 0.8rem;
+}
+
+.price{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.offer{
+    color: #84cc16;
+    font-size: 0.8rem;
+}
+
+.sub-content{
+    display: flex;
+    justify-content: space-between;
+    width: 11rem;
+    font-size: 0.5rem;
+
+}
+
+.txt-line-through{
+    text-decoration: line-through;
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.rating{
+    background-color: #16a34a;
+    color: #f0fdf4;
+    font-size: 0.9rem;
+    border-radius: 0.1875rem;
+    padding: 0.1rem;
+}
+
+.add-to-cart{
+    background-color:#312e81;
+    border:none;
+    padding:0.4rem;
+    color: #eef2ff;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    cursor:pointer;
+}
+
+.wish-icon{
+    font-size: 1.25rem;
+    background-color: white;
+    border:none;
+    color: red;
+    width: 1.5rem;
+    height: 1.3rem;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 0.3rem;
+}
+
