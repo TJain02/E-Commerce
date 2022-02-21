@@ -1,6 +1,11 @@
+:root{
+  --dark-indigo: #090553;
+  --light-indigo: #eef2ff;
+  --translucent-white: #eef2ffa1;
+}
 
 body{
-  background-color: #eef2ff;
+  background-color: white;
 }
 /* header */
 .home-navigation-container{
@@ -13,9 +18,9 @@ body{
     top: 0;
     right: 0;
     left: 0;
-    background-color:#090553;
+    background-color: var(--dark-indigo);
     padding:1rem;
-    color: #eef2ff;
+    color: var(--light-indigo);
     z-index: 1;
   }
   
@@ -43,15 +48,7 @@ body{
   }
 
   .login-btn{
-    border-radius: 0.125rem;
-    background-color: #6366f1;
-    color: #eef2ff;
-    border: none;
-    width: 4rem;
     padding: 0.3rem 0.5rem;
-    font-size: 1rem;
-    font-family: 'Roboto', sans-serif;
-    cursor: pointer;
   }
 
   /* Main Section */
@@ -63,7 +60,7 @@ body{
     margin: 1rem 0 1rem 1rem;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 0.5rem;
-    background-color: #eef2ff;
+    background-color: var(--light-indigo);
     padding: 1rem;
   }
 
@@ -80,10 +77,10 @@ body{
   .men-section{
     position: absolute;
     bottom:4.5rem;
-    color: #090553;
+    color: var(--dark-indigo);
     font-weight: bold;
     font-size: large;
-    background-color: #eef2ffa1;
+    background-color: var(--translucent-white);
     width:11.7rem;
     left:0.15rem;
     text-align: center;
@@ -97,7 +94,7 @@ body{
     margin:1rem 6rem;
     justify-content: center;
     padding: 1rem;
-    background-color: #eef2ff;
+    background-color: var(--light-indigo);
   }
 
   .main-img{
@@ -124,7 +121,7 @@ body{
 .shoe-card{
   margin: 0.3rem;
   display: flex;
-  background-color: #eef2ff;
+  background-color: var(--light-indigo);
   padding: 1rem;
 }
 
