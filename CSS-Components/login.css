@@ -1,5 +1,11 @@
+:root{
+  --dark-indigo: #090553;
+  --light-indigo: #eef2ff;
+  --indigo: #6366f1;
+}
+
 body{
-  background-color: #eef2ff;
+  background-color: var(--light-indigo);
 }
 /* navigation-container */
   .wishlist-navigation-container{ 
@@ -15,7 +21,7 @@ body{
     top:0;
     background-color:#090553;
     padding:1rem;
-    color: #eef2ff;
+    color: var(--light-indigo);
     z-index: 2;
   }
   
@@ -40,15 +46,8 @@ body{
   }
 
   .login-btn{
-    border-radius: 0.125rem;
-    background-color: #6366f1;
-    color: #eef2ff;
-    border: none;
-    width: 4rem;
+    margin: 0;
     padding: 0.3rem 0.5rem;
-    font-size: 1rem;
-    font-family: 'Roboto', sans-serif;
-    cursor: pointer;
   }
 
 /* login container */
@@ -112,7 +111,7 @@ body{
   .forgot-pasword{
     border: none;
     background-color: transparent;
-    color: #6366f1;
+    color: var(--indigo);
     margin: 0.5rem;
     align-self: center;
     font-size: 1rem;
