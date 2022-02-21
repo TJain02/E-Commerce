@@ -24,6 +24,10 @@ body{
       z-index: 2;
     }
     
+    a{
+      text-decoration: none;
+      color: var(--light-indigo);
+    }
     
     .toolBar{
       flex-grow: 0.5;
@@ -110,7 +114,9 @@ body{
     .have-account{
         border: none;
         background-color: transparent;
-        font-size: 1rem;
+        font-size: 1.125rem;
+        cursor: pointer;
+        margin: 1rem;
     }
   
     
