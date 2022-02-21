@@ -1,3 +1,8 @@
+:root{
+  --dark-indigo:#090553;
+  --light-indigo: #eef2ff;
+}
+
 /* navigation-container */
 .product-navigation-container{ 
     font-size: 1.25rem;
@@ -10,9 +15,9 @@
     right: 0;
     left: 0;
     top:0;
-    background-color:#090553;
+    background-color: var(--dark-indigo);
     padding:1rem;
-    color: #eef2ff;
+    color: var(--light-indigo);
     z-index: 2;
   }
   
@@ -46,15 +51,8 @@
   }
 
   .login-btn{
-    border-radius: 0.125rem;
-    background-color: #6366f1;
-    color: #eef2ff;
-    border: none;
-    width: 4rem;
+    margin: 0rem;
     padding: 0.3rem 0.5rem;
-    font-size: 1rem;
-    font-family: 'Roboto', sans-serif;
-    cursor: pointer;
   }
 
   /* filter container */
@@ -64,7 +62,7 @@
       padding: 1rem;
       display: flex;
       flex-direction: column;
-      background-color: #eef2ff;
+      background-color: var(--light-indigo);
       left: 0;
       z-index: 1;
       overflow: hidden;
@@ -98,16 +96,10 @@
       cursor: pointer;
       font-size: 1rem;
       text-decoration: underline;
-      color: #090553;
+      color:var(--dark-indigo);
   }
   .price-btn{
-    border-radius: 0.3125rem;
-    background-color: #6366f1;
-    color: #eef2ff;
-    border: none;
-    font-size: 0.9rem;
-    font-family: 'Roboto', sans-serif;
-    cursor: pointer;
+    font-size: 0.8rem;
     margin: 0.1rem;
   }
 
@@ -119,7 +111,7 @@
     column-gap: 1.5rem;
     row-gap: 1.5rem;
     margin: 0.5rem;
-    background-color: #eef2ff;
+    background-color: var(--light-indigo);
     padding: 1rem;
     border-radius: 0.325rem;
 }
